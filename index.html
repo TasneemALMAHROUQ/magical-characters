@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Magical Characters ✨</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Harry+P&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav>
+    <h1>Magical Characters ✨</h1>
+    <select id="house-filter">
+      <option value="all">All Houses</option>
+      <option value="Gryffindor">Gryffindor</option>
+      <option value="Slytherin">Slytherin</option>
+      <option value="Hufflepuff">Hufflepuff</option>
+      <option value="Ravenclaw">Ravenclaw</option>
+    </select>
+  </nav>
+
+  <main id="characters-container"></main>
+
+  <footer>
+    <p>Tasneem Almahrouq© <span id="year"></span></p>
+  </footer>
+
+  <script src="js/app.js"></script>
+
+  <script>
+  
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
